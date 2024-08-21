@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import PostInfo from './PostInfo'
+import PostInteraction from './PostInteraction'
+import Comments from '../comments/Comments'
 
 const Post = () => {
   return (
@@ -47,7 +49,7 @@ const Post = () => {
             />
         </div>
         {/* <p>{post.desc}</p> */}
-        <p>DESC</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas saepe sequi cupiditate numquam perferendis accusamus totam, autem dolorem enim vero cumque explicabo. Ex quidem deserunt minima numquam eaque modi repudiandae?</p>
       </div>
       {/* INTERACTION */}
       {/* <Suspense fallback="Loading...">
@@ -60,6 +62,8 @@ const Post = () => {
       <Suspense fallback="Loading...">
         <Comments postId={post.id} />
       </Suspense> */}
+      <PostInteraction />
+      <Comments />
     </div>
   )
 }
