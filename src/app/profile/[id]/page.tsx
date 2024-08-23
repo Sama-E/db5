@@ -8,8 +8,7 @@ const ProfilePage = () => {
   return (
     <div className="flex gap-6 pt-6">
       <div className="hidden xl:block w-[20%]">
-        {/* <LeftMenu type="profile" /> */}
-        <LeftMenu />
+        <LeftMenu type="profile" />
       </div>
       <div className="w-full lg:w-[70%] xl:w-[50%]">
         <div className="flex flex-col gap-6">
@@ -45,12 +44,12 @@ const ProfilePage = () => {
               </div>
               <div className="flex flex-col items-center">
                 {/* <span className="font-medium">{user._count.followers}</span> */}
-                <span className="font-medium">10</span>
+                <span className="font-medium">1.3k</span>
                 <span className="text-sm">Followers</span>
               </div>
               <div className="flex flex-col items-center">
                 {/* <span className="font-medium">{user._count.followings}</span> */}
-                <span className="font-medium">10</span>
+                <span className="font-medium">153</span>
                 <span className="text-sm">Following</span>
               </div>
             </div>
