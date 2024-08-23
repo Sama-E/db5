@@ -42,10 +42,10 @@ const Post = () => {
         )} */}
         <div className="w-full min-h-96 relative">
             <Image
-                src={""}
-                fill
-                className="object-cover rounded-md"
-                alt=""
+              src="https://images.pexels.com/photos/23193135/pexels-photo-23193135.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load"          
+              fill
+              className="object-cover rounded-md"
+              alt=""
             />
         </div>
         {/* <p>{post.desc}</p> */}
